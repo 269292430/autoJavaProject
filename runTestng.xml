@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default Suite"  thread-count="2" parallel="methods">
+  <test name="autoJavaProject">
+    <classes>
+      <class name="com.auto.meyang.day4.datadriver.DataDriverTest">
+        <!--<methods>-->
+          <!--<include name="testCase1"/>-->
+        <!--</methods>-->
+      </class> <!-- com.auto.meyang.day3.GridTest -->
+    </classes>
+  </test> <!-- autoJavaProject -->
+</suite> <!-- Default Suite -->
